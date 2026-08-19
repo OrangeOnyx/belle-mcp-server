@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "belle-realty": {
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/belle-mcp-server/dist/index.js"],
+      "env": {
+        "SUPABASE_URL": "https://your-project-ref.supabase.co",
+        "SUPABASE_SERVICE_ROLE_KEY": "your-service-role-key-here",
+        "MCP_RATE_LIMIT_PER_MIN": "60",
+        "MCP_AUDIT_LOG_ENABLED": "true"
+      }
+    }
+  }
+}
